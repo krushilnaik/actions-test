@@ -1,0 +1,9 @@
+# Use the official Redis image as the base
+FROM redis:latest
+
+# Copy a local configuration file into the image
+# This assumes you have a file named 'redis.conf' in the same directory as your Dockerfile
+COPY redis.conf /usr/local/etc/redis/redis.conf
+
+# Set the default command to start Redis with your configuration file
+CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
