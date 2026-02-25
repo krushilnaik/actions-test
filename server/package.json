@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "build": "echo \"One does not simply build a server\" && exit 1",
+    "build": "echo \"One does not simply build a server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
