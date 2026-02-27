@@ -22,11 +22,13 @@ jobs:
     uses: krushilnaik/workflow-template/.github/workflows/reusable-ci.yml@master
     with:
       node-version: "22"
+      working-directory: "ui"
 
   ci-server:
     uses: krushilnaik/workflow-template/.github/workflows/reusable-ci.yml@master
     with:
       node-version: "22"
+      working-directory: "server"
 
   docker-build:
     runs-on: ubuntu-latest
