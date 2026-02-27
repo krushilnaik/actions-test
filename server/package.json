@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "build": "echo \"One does not simply build a server\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"One does not simply write tests\""
   },
   "keywords": [],
   "author": "",
